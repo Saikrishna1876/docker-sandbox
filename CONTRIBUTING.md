@@ -39,7 +39,6 @@ We welcome pull requests for bug fixes and new features. To ensure a smooth proc
 
 - We use TypeScript. Ensure your code is properly typed.
 - Follow the existing formatting and naming conventions in the project.
-- Use `npm run lint` or `bun run lint` (if available) to check for style issues.
 
 ## Development Workflow
 
