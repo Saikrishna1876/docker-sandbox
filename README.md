@@ -25,14 +25,7 @@ npx docker-sandbox --port 8080
 ### Install the SDK
 
 ```bash
-# Using npm
-npm install docker-sandbox
-
-# Using bun
 bun add docker-sandbox
-
-# Using yarn
-yarn add docker-sandbox
 ```
 
 ### Use the SDK
