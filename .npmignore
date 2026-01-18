@@ -1,0 +1,22 @@
+# Source files
+src/
+examples/
+
+# Development files
+*.ts
+!dist/**/*.d.ts
+tsconfig.json
+CLAUDE.md
+Dockerfile
+.gitignore
+.dockerignore
+bun.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Test
+*.test.ts
+*.spec.ts
+__tests__/
