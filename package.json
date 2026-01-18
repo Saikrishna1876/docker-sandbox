@@ -1,5 +1,5 @@
 {
-  "name": "@saikrishnaambeti/docker-sandbox",
+  "name": "@saikrishnaambeti/docker-sanbox",
   "version": "1.0.0",
   "description": "A Docker-based sandbox for running isolated code execution environments",
   "keywords": [
@@ -59,7 +59,8 @@
     "build:shebang": "node -e \"const fs=require('fs');const f='dist/cli/index.js';let c=fs.readFileSync(f,'utf8');c=c.replace(/^(#!.*)?/,'#!/usr/bin/env node\\n');fs.writeFileSync(f,c);\" && chmod +x dist/cli/index.js",
     "prepublishOnly": "bun run build",
     "example": "bun run examples/usage.ts",
-    "test": "echo \"No tests yet\""
+    "test": "echo \"No tests yet\"",
+    "start": "bun dist/cli/index.js"
   },
   "devDependencies": {
     "@types/bun": "latest",
