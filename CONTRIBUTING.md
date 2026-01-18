@@ -47,8 +47,7 @@ We welcome pull requests for bug fixes and new features. To ensure a smooth proc
 3. Install dependencies: `bun install` or `npm install`.
 4. Create a feature branch.
 5. Make your changes and add tests.
-6. Verify changes: `bun test` or `npm test`.
-7. Push to your fork and submit a Pull Request.
+6. Push to your fork and submit a Pull Request.
 
 ---
 
