@@ -1,6 +1,6 @@
 {
-  "name": "@saikrishnaambeti/docker-sanbox",
-  "version": "1.0.0",
+  "name": "@saikrishnaambeti/docker-sandbox",
+  "version": "1.2.0",
   "description": "A Docker-based sandbox for running isolated code execution environments",
   "keywords": [
     "docker",
