@@ -1,5 +1,5 @@
 {
-  "name": "docker-sandbox",
+  "name": "@saikrishnaambeti/docker-sandbox",
   "version": "1.0.0",
   "description": "A Docker-based sandbox for running isolated code execution environments",
   "keywords": [
@@ -10,11 +10,15 @@
     "code-execution",
     "typescript"
   ],
-  "author": "",
+  "author": "Saikrishna1876",
   "license": "MIT",
+  "homepage": "https://github.com/Saikrishna1876/docker-sandbox#readme",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Saikrishna1876/docker-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saikrishna1876/docker-sandbox/issues"
   },
   "type": "module",
   "main": "./dist/index.js",
@@ -49,8 +53,8 @@
     "dev": "bun run src/cli/index.ts",
     "build": "bun run build:clean && bun run build:esm && bun run build:cli && bun run build:types && bun run build:shebang",
     "build:clean": "rm -rf dist",
-    "build:esm": "bun build ./src/index.ts ./src/sdk/index.ts ./src/server/index.ts --outdir ./dist --target node --splitting --format esm",
-    "build:cli": "bun build ./src/cli/index.ts --outdir ./dist/cli --target node --format esm",
+    "build:esm": "bun build ./src/index.ts ./src/sdk/index.ts ./src/server/index.ts --outdir ./dist --target bun --splitting --format esm",
+    "build:cli": "bun build ./src/cli/index.ts --outdir ./dist/cli --target bun --format esm",
     "build:types": "tsc --emitDeclarationOnly --declaration --outDir dist",
     "build:shebang": "node -e \"const fs=require('fs');const f='dist/cli/index.js';let c=fs.readFileSync(f,'utf8');c=c.replace(/^(#!.*)?/,'#!/usr/bin/env node\\n');fs.writeFileSync(f,c);\" && chmod +x dist/cli/index.js",
     "prepublishOnly": "bun run build",
