@@ -16,22 +16,20 @@ A Docker-based sandbox for running isolated code execution environments. Start a
 
 ```bash
 # Using npx (no installation required)
-npx docker-sandbox
-
+npx @saikrishnaambeti/docker-sandbox
 # Or with a custom port
-npx docker-sandbox --port 8080
+npx @saikrishnaambeti/docker-sandbox --port 8080
 ```
 
 ### Install the SDK
 
-```bash
-bun add docker-sandbox
-```
+````bash
+bun add @saikrishnaambeti/docker-sandbox```
 
 ### Use the SDK
 
 ```typescript
-import { Sandbox, createLogStream } from "docker-sandbox";
+import { Sandbox, createLogStream } from "@saikrishnaambeti/docker-sandbox";
 
 async function main() {
   // Create a sandbox
@@ -68,13 +66,13 @@ async function main() {
 }
 
 main();
-```
+````
 
 ## CLI Options
 
 ```
 Usage:
-  docker-sandbox [options]
+  @saikrishnaambeti/docker-sandbox [options]
 
 Options:
   -p, --port <port>   Port to run the server on (default: 4000)
@@ -136,7 +134,7 @@ Stop and remove the sandbox container.
 Helper to create a `WritableStream` from Node.js `stdout`/`stderr`.
 
 ```typescript
-import { createLogStream } from "docker-sandbox";
+import { createLogStream } from "@saikrishnaambeti/docker-sandbox";
 
 await sandbox.runCommand({
   cmd: "echo",

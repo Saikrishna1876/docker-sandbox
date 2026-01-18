@@ -10,7 +10,7 @@ function printHelp() {
 🐳 Docker Sandbox CLI
 
 Usage:
-  docker-sandbox [options]
+  @saikrishnaambeti/docker-sandbox [options]
 
 Options:
   -p, --port <port>   Port to run the server on (default: 4000)
@@ -18,14 +18,14 @@ Options:
   -v, --version       Show version
 
 Examples:
-  docker-sandbox                  # Start server on port 4000
-  docker-sandbox --port 8080      # Start server on port 8080
-  npx docker-sandbox              # Start server using npx
+  @saikrishnaambeti/docker-sandbox                  # Start server on port 4000
+  @saikrishnaambeti/docker-sandbox --port 8080      # Start server on port 8080
+  npx @saikrishnaambeti/docker-sandbox              # Start server using npx
 `);
 }
 
 function printVersion() {
-  console.log(`docker-sandbox v${VERSION}`);
+  console.log(`@saikrishnaambeti/docker-sandbox v${VERSION}`);
 }
 
 function parseArgs(args: string[]): { port: number } {

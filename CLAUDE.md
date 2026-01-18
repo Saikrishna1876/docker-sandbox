@@ -4,7 +4,7 @@ Default to using Bun instead of Node.js.
 
 This is an npm package with:
 
-- `src/cli/` - CLI entry point for `npx docker-sandbox`
+- `src/cli/` - CLI entry point for `npx @saikrishnaambeti/docker-sandbox`
 - `src/sdk/` - SDK for interacting with the sandbox API
 - `src/server/` - The Docker sandbox server
 - `examples/` - Example usage files

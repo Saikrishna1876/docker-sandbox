@@ -25,7 +25,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "docker-sandbox": "./dist/cli/index.js"
+    "@saikrishnaambeti/docker-sandbox": "./dist/cli/index.js"
   },
   "exports": {
     ".": {

@@ -1,8 +1,8 @@
 /**
- * Example usage of the docker-sandbox SDK
+ * Example usage of the @saikrishnaambeti/docker-sandbox SDK
  *
  * Before running this example:
- * 1. Start the server: npx docker-sandbox
+ * 1. Start the server: npx @saikrishnaambeti/docker-sandbox
  * 2. Run this file: bun run examples/usage.ts
  */
 import ms from "ms";
