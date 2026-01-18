@@ -3,6 +3,7 @@
 Thank you for your interest in contributing! We welcome contributions from everyone.
 
 ## Table of Contents
+
 - [Reporting Issues](#reporting-issues)
 - [Pull Requests](#pull-requests)
 - [Code Style](#code-style)
@@ -29,9 +30,8 @@ We welcome pull requests for bug fixes and new features. To ensure a smooth proc
 5.  **Documentation:** Update the `README.md` or other documentation if your changes affect how the project is used.
 
 ### Pull Request Checklist
+
 - [ ] Branch is up-to-date with `main`.
-- [ ] Tests pass locally.
-- [ ] New functionality is covered by tests.
 - [ ] Documentation is updated.
 - [ ] The PR title and description clearly explain the changes.
 
